@@ -1,0 +1,10 @@
+{
+  "license" : "SEE LICENSE IN ./LICENSE",
+  "devDependencies": {
+    "vuepress": "^0.14.3"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
