@@ -1,4 +1,4 @@
 module.exports = {
   title: 'ZukBoard',
-  description: 'Just playing around'
+  description: 'Just Draw It'
 }
