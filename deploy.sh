@@ -24,7 +24,4 @@ NOW_DEPLOY_ID=$( now docs/.vuepress/dist --public --no-clipboard --regions=$REGI
 now alias $NOW_DEPLOY_ID "$NOW_SUBDOMAIN" --token=$NOW_TOKEN
 
 # Remove any unaliased deployments
-now rm $NOW_SUBDOMAIN --safe --yes --token=$NOW_TOKEN
-
-# Scale the deployment and always exit successfully
-now scale "$NOW_SUBDOMAIN.now.sh" $MIN_INSTANCES $MAX_INSTANCES --token=$NOW_TOKEN || exit 0
+now rm $NOW_SUBDOMAIN --safe --yes --token=$NOW_TOKEN || exit 0
