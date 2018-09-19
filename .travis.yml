@@ -11,16 +11,13 @@ script: # Here you could also run the build step of your application
 before_deploy: yarn add now --no-save # Install Now CLI on Travis
 deploy:
   - provider: script # Run a custom deployment script which we will define below
-    script: 
-      - now docs/.vuepress/dist --token $NOW_TOKEN --public
+    script: now docs/.vuepress/dist --token $NOW_TOKEN --public
     skip_cleanup: true
     on:
       all_branches: true
       master: false
   - provider: script
-    script: 
-      - now docs/.vuepress/dist --token $NOW_TOKEN --public
-      - now alias --token $NOW_TOKEN
+    script: now docs/.vuepress/dist --token $NOW_TOKEN --public && now alias --token $NOW_TOKEN
     skip_cleanup: true
     on:
       master: true
