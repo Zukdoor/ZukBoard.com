@@ -1,16 +1,16 @@
 ---
 home: true
-actionText: Easy to Use →
+actionText: 快速上手 →
 features:
-- title: Simple
+- title: 简洁
   details: 
-- title: Extensible
+- title: 可扩展
   details: 
-- title: Performant
+- title: 高性能
   details: 
 footer: MIT Licensed | Copyright © 2018-present Zukdoor Inc., Beijing
 ---
 
 # ZukBoard
 
-[Deploy a local ZukBoard server](deploy.md)
+[在本地部署ZukBoard服务器](deploy.md)

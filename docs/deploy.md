@@ -1,4 +1,4 @@
-# Deploy on your own server
+# Deploy a local ZukBoard server
 
 ```sh
 node server.js
