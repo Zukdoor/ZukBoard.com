@@ -51,11 +51,11 @@ module.exports = {
         // 当前 locale 的 algolia docsearch 选项
         algolia: {},
         nav: [
-          { text: '主页', link: '/' }, 
-          { text: '插件', link: '/plugins/' },
-          { text: '教程', link: '/tutorials/' }, 
-          { text: '示例', link: '/examples/'},
-          { text: '文档', link:'/docs/' },
+          { text: '主页', link: '/zh/' }, 
+          { text: '插件', link: '/zh/plugins/' },
+          { text: '教程', link: '/zh/tutorials/' }, 
+          { text: '示例', link: '/zh/examples/'},
+          { text: '文档', link:'/zh/docs/' },
           { text: '联系我们', link:'mailto:test@bookwiki.site' }
         ],
         sidebar: {
